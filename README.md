@@ -29,3 +29,7 @@
  * As a loss function [`CrossEntropyLoss`](https://pytorch.org/docs/stable/nn.html#torch.nn.CrossEntropyLoss) has been used as we have multiple categories.
  * Stochastic Gradient Descent([SGD](https://pytorch.org/docs/stable/optim.html#torch.optim.SGD)) is used as the optimizer of for the network to update the parameters per batches per epoch.
  * We are decaying the learning rate at a rate of 0.2 for each 5 epoch for smooth convergence to the optima.
+
+
+### Note: Error in loading the notebooks: (https://github.com/jupyter/notebook/issues/3035)
+* Kindly use https://nbviewer.jupyter.org/ and paste the URLs of the notebook and hit Go!. 
