@@ -7,6 +7,7 @@
  * **shape** containing size of the image and number of channels
  * **objects** containing `lower left co-ordinates` and `upper right co-ordinates` of the the blood smears and `category` of the smear.
 * We have used Python to crop out each cell using the co-ordinates of the images and save it to the respective folders created for each category. The script `crop_utils.py` uses opencv, pandas and other libraries.
+![Raw Image](/content/sample_image.png?raw=true "RAW IMAGE")
 * Exploratory Data Analysis and data preprocessing is done as the dataset is highly imbalanced. We have used up-sampling and down-sampling to bring the data disctribution in a desired ratio. The details and implementation is in `EDA_DataPreProcessing.ipynb`.
 * The processed dataset is divided into three different subsets, `train`, `valid` and `test`.
 
