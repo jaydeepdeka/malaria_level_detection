@@ -35,7 +35,7 @@
 **EDA_DataPreProcessing.ipynb**: Exploratory Data Analysis of the cropped image and pre-processing for data augmentation and new data generation.
 **First_model.ipynb**: Notebook to build the first model.
 **Modeling_And_Implementation.ipynb**: Notebook to build the final model.
-**requirements.txt**: Library/Package names generated from `conda list`.
+**requirements.txt**: Library/Package names generated from `conda list`
 
 ### Note: Error in loading the notebooks: (https://github.com/jupyter/notebook/issues/3035)
 * Kindly use https://nbviewer.jupyter.org/ and paste the URLs of the notebook and hit Go!. 
