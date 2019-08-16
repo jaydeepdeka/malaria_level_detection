@@ -1,6 +1,6 @@
 ## Malaria Level Detection classifier
 
-* This notebook implements a classifier using PyTorch to detect different stages of the malaria.
+* This project implements a classifier using PyTorch to detect different stages of the malaria infected blood cells.
 * The dataset used for this project has been downloaded from [kaggle](https://www.kaggle.com/kmader/malaria-bounding-boxes). The dataset contains total 1364 images with (~80000) cells annotated by human researchers in different categories.
 * In each of the images, tens of blood smears are present. There are two JSON files in the dataset, which contains details about:
  * Image **path**
@@ -30,6 +30,12 @@
  * Stochastic Gradient Descent([SGD](https://pytorch.org/docs/stable/optim.html#torch.optim.SGD)) is used as the optimizer of for the network to update the parameters per batches per epoch.
  * We are decaying the learning rate at a rate of 0.2 for each 5 epoch for smooth convergence to the optima.
 
+### File Description:
+**crop_utils.py**: Script to crop the cell images from the provided image. Requires location modifications in the script
+**EDA_DataPreProcessing.ipynb**: Exploratory Data Analysis of the cropped image and pre-processing for data augmentation and new data generation.
+**First_model.ipynb**: Notebook to build the first model.
+**Modeling_And_Implementation.ipynb**: Notebook to build the final model.
+**requirements.txt**: Library/Package names generated from `conda list`.
 
 ### Note: Error in loading the notebooks: (https://github.com/jupyter/notebook/issues/3035)
 * Kindly use https://nbviewer.jupyter.org/ and paste the URLs of the notebook and hit Go!. 
